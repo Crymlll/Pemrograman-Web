@@ -1,7 +1,61 @@
+*{
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+}
 body{
-    background-color: aqua;
+    background-image: url('https://wallpaperaccess.com/full/4742978.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    height: 100%;
+    margin: 0;
 }
 
 h1{
     text-align: center;
+    font-size: x-large;
+}
+
+nav{
+    background: rgb(61, 218, 230);
+    height: 70px;
+    width: 100%;
+    box-shadow: 0 0 15px black;
+}
+
+table{
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label.logo{
+    color: white;
+    font-size: 30px;
+    line-height: 70px;
+    padding: 0 60px;
+    font-weight: bold;
+}
+
+.content-table {
+    border-collapse: collapse;
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    box-shadow: 0 0 15px black;
+}
+
+.content-table th{
+    background-color: rgb(61, 218, 230);
+    padding: 12px 15px;
+}
+  
+.content-table td {
+    padding: 12px 15px;
+}
+  
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #c9fafa;
+}
+.content-table tbody tr:nth-of-type(odd) {
+    background-color: #ffffff;
 }

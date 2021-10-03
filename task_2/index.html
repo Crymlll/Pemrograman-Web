@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PENDAFTARAN</title>
+    <title>Form Pendaftaran</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Halaman Form Pendaftaran</h1>
-    <hr>
+    <nav>
+        <label class="logo">Crymlll Bank</label>
+    </nav>
 
+    <h1>FORM PENDAFTARAN KERJA</h1>
     <form method="get" action="daftar.html" id="form">
-        <table border="0" align="center">
+        <table>
             <tr>
                 <td>Nama Lengkap</td>
                 <td> : </td>
@@ -22,6 +24,19 @@
                 <td>Tempat Lahir</td>
                 <td> : </td>
                 <td><input type="text" name="tempatLahir" placeholder="Jakarta"></td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td> : </td>
+                <td><input type="date" name="tanggalLahir"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td> : </td>
+                <td>
+                    <input type="radio" name="jenisKelamin" value="Laki-Laki">Laki-Laki
+                    <input type="radio" name="jenisKelamin" value="Perempuan">Perempuan
+                </td>
             </tr>
             <tr>
                 <td>Alamat</td>
@@ -39,6 +54,11 @@
                 <td><input type="email" name="email" placeholder="aulia@gmail.com"></td>
             </tr>
             <tr>
+                <td>Pengalaman</td>
+                <td> : </td>
+                <td><textarea rows="4" cols="50" placeholder="Tuliskan pengalaman dalam bidang teknologi"></textarea></td>
+            </tr>
+            <tr>
                 <td>Tinggi Badan (cm)</td>
                 <td> : </td>
                 <td><input type="text" name="tinggiBadan" placeholder="180"></td>
@@ -51,12 +71,7 @@
                     <button type="submit" name="submit">Submit</button>
                 </td>
             </tr>
-            
         </table>
-        
-
     </form>
-
-
 </body>
 </html>
