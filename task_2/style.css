@@ -1,23 +1,24 @@
 *{
     font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    
 }
-body{
+
+body, html {
+    margin: 0;
     background-image: url('https://wallpaperaccess.com/full/4742978.jpg');
+    height: 100%; 
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
-    position: relative;
-    height: 100%;
-    margin: 0;
 }
 
 h1{
     text-align: center;
-    font-size: x-large;
+    font-size: 35px;
 }
 
 nav{
-    background: rgb(61, 218, 230);
+    background-color: rgb(61, 218, 230);
     height: 70px;
     width: 100%;
     box-shadow: 0 0 15px black;
@@ -25,6 +26,7 @@ nav{
 
 table{
     border: 0;
+    margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -37,11 +39,26 @@ label.logo{
     font-weight: bold;
 }
 
+
+.layer {
+    background-color: rgba(166, 228, 233, 0.596);
+    margin: auto;
+    margin-top: 50px;
+    padding: 120px;
+    width: 50%;
+    height: 60%;
+    box-shadow: 0 0 15px black;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
 .content-table {
+    margin-top: 50px;
     border-collapse: collapse;
     border-radius: 10px 10px 10px 10px;
     overflow: hidden;
     box-shadow: 0 0 15px black;
+    font-size: 18px;
 }
 
 .content-table th{
@@ -53,9 +70,41 @@ label.logo{
     padding: 12px 15px;
 }
   
-.content-table tbody tr:nth-of-type(even) {
+.content-table tr:nth-of-type(even) {
     background-color: #c9fafa;
 }
-.content-table tbody tr:nth-of-type(odd) {
+.content-table tr:nth-of-type(odd) {
     background-color: #ffffff;
+}
+
+button{
+    padding: 10px 25px;
+    background-color:rgb(61, 218, 230);
+    border: none;
+    border-radius: 70px;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: all .2s;
+    z-index: 100;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.158);
+}
+
+a{
+    position: relative;
+    top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 25px;
+    background-color:rgb(61, 218, 230);
+    border: none;
+    border-radius: 70px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover{
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.158);
 }

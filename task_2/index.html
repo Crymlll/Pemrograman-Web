@@ -9,69 +9,86 @@
 </head>
 <body>
     <nav>
-        <label class="logo">Crymlll Bank</label>
+        <label class="logo">Crymlll Tech</label>
     </nav>
-
-    <h1>FORM PENDAFTARAN KERJA</h1>
-    <form method="get" action="daftar.html" id="form">
-        <table>
-            <tr>
-                <td>Nama Lengkap</td>
-                <td> : </td>
-                <td><input type="text" name="nama" placeholder="Aulia Rahman Zulfi"></td>
-            </tr>
-            <tr>
-                <td>Tempat Lahir</td>
-                <td> : </td>
-                <td><input type="text" name="tempatLahir" placeholder="Jakarta"></td>
-            </tr>
-            <tr>
-                <td>Tanggal Lahir</td>
-                <td> : </td>
-                <td><input type="date" name="tanggalLahir"></td>
-            </tr>
-            <tr>
-                <td>Jenis Kelamin</td>
-                <td> : </td>
-                <td>
-                    <input type="radio" name="jenisKelamin" value="Laki-Laki">Laki-Laki
-                    <input type="radio" name="jenisKelamin" value="Perempuan">Perempuan
-                </td>
-            </tr>
-            <tr>
-                <td>Alamat</td>
-                <td> : </td>
-                <td><input type="text" name="alamat" placeholder="Jl Raya Condet no:3"></td>
-            </tr>
-            <tr>
-                <td>No. HP</td>
-                <td> : </td>
-                <td><input type="text" name="noHP" placeholder="081234567891"></td>
-            </tr>
-            <tr>
-                <td>Email</td>
-                <td> : </td>
-                <td><input type="email" name="email" placeholder="aulia@gmail.com"></td>
-            </tr>
-            <tr>
-                <td>Pengalaman</td>
-                <td> : </td>
-                <td><textarea rows="4" cols="50" placeholder="Tuliskan pengalaman dalam bidang teknologi"></textarea></td>
-            </tr>
-            <tr>
-                <td>Tinggi Badan (cm)</td>
-                <td> : </td>
-                <td><input type="text" name="tinggiBadan" placeholder="180"></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>
-                    <button type="submit" name="submit">Submit</button>
-                </td>
-            </tr>
-        </table>
-    </form>
+    <div class="layer">
+        <h1>Form Pendaftaran Kerja</h1>
+        <form method="get" action="daftar.html" id="form" class="form">
+            <table>
+                <tr>
+                    <td>Nama Lengkap</td>
+                    <td> : </td>
+                    <td><input type="text" name="nama" placeholder="Aulia Rahman Zulfi"></td>
+                </tr>
+                <tr>
+                    <td>Tempat Lahir</td>
+                    <td> : </td>
+                    <td><input type="text" name="tempatLahir" placeholder="Jakarta"></td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td> : </td>
+                    <td><input type="date" name="tanggalLahir"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td> : </td>
+                    <td>
+                        <input type="radio" name="jenisKelamin" value="Laki-Laki">Laki-Laki
+                        <input type="radio" name="jenisKelamin" value="Perempuan">Perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td> : </td>
+                    <td><input type="text" name="alamat" placeholder="Jl Raya Condet no:3"></td>
+                </tr>
+                <tr>
+                    <td>No. HP</td>
+                    <td> : </td>
+                    <td><input type="text" name="noHP" placeholder="081234567891"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td> : </td>
+                    <td><input type="email" name="email" placeholder="aulia@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td>Pengalaman</td>
+                    <td> : </td>
+                    <td><textarea rows="4" cols="40" placeholder="Tuliskan pengalaman dalam bidang teknologi"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Peminatan</td>
+                    <td> : </td>
+                    <td>
+                        <input type="checkbox" name="peminatan" value="software">Software Engineer<br>
+                        <input type="checkbox" name="peminatan" value="web">Web Developer<br>
+                        <input type="checkbox" name="peminatan" value="game">Game Developer<br>
+                        <input type="checkbox" name="peminatan" value="iot">Internet of Things<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pemilihan Divisi</td>
+                    <td> : </td>
+                    <td>
+                        <select name="divisi" id="divisi">
+                            <option value="Hacker">Hacker</option>
+                            <option value="Hipster">Hipster</option>
+                            <option value="Hustler">Hustler</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <button type="submit" name="submit">Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
 </body>
 </html>
